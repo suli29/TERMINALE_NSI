@@ -16,23 +16,23 @@
 
  ## 2. Rappel 1 ère :
 
-## 2. 1. Plus grand que
+### <u>2. 1. Plus grand que :</u>
 
 Ecrire un prédicat *plus_grand_que(a,b)* qui prend en paramètre *a* et *b* et renvoie True si *a* est supérieur à *b*.
 
-## 2. 2. Pythagore
+### <u>2. 2. Pythagore :</u>
 
 Ecrire une fonction *Pythagore(cote1,cote2,hypothenuse)* qui renvoie un booléen si les trois côtés forment un triangle rectangle
 
-## 2. 3. Tableaux :
+### <u>2. 3. Tableaux :</u>
 
 Ecrire une fonction *somme(t)* qui additionne tous les éléments d'un tableau.
 
-## 2. 4. Fonction de tri :
+### <u>2. 4. Fonction de tri :</u>
 
 Expliquez le tri par sélection et le tri par insertion avec des exemples.
 
-## 2. 5. Recherche dichotomique :
+### <u>2. 5. Recherche dichotomique :</u>
 
 1. Expliquez la recherche dichotomique
 
@@ -61,9 +61,8 @@ Expliquez le tri par sélection et le tri par insertion avec des exemples.
        return ..........
    ```
 
-   
 
-## 2. 6. Dentiste
+### <u>2. 6. Dentiste</u> :
 
 Chez le dentiste, la bouche grande ouverte, lorsqu’on essaie de parler, il ne reste que les voyelles. Même les ponctuations sont supprimées.
 Vous devez écrire une fonction `dentiste(texte)` qui renvoie un texte ne contenant que les voyelles de `texte`, dans l'ordre.
