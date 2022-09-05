@@ -26,7 +26,7 @@ Ecrire une fonction *Pythagore(cote1,cote2,hypothenuse)* qui renvoie un booléen
 
 ### <u>2. 3. Tableaux :</u>
 
-Ecrire une fonction *somme(t)* qui additionne tous les éléments d'un tableau.
+Ecrire une fonction *somme(t)* qui additionne tous les éléments d'un tableau et renvoie cette somme
 
 ### <u>2. 4. Fonction de tri :</u>
 
