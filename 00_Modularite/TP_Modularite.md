@@ -10,15 +10,13 @@
 
 1. Reprendre le fichier contenant les fonctions de rappel de première.
 
-2. Inclure cette ligne dans le fichier :
+2. Inclure cette ligne dans le fichier (à la première ligne) :
 
    ```python
    import doctest
    ```
 
-   1. que permet cette ligne
-
-3. Inclure en bas de fichier la ligne :
+3. Inclure en bas de fichier les lignes :
 
    ```python
    if __name__=="__main__":
