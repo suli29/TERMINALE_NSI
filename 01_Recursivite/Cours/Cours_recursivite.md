@@ -120,5 +120,5 @@ def fibonacci(n):
     elif n == 1 :
         return 1
     else : 
-        return fibonnaci(n-1) + fibonnaci(n-2)
+        return fibonacci(n-1) + fibonacci(n-2)
 ```
