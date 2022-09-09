@@ -59,7 +59,7 @@ La suite de syracuse est une suite définie comme :
 
 $$`U_{n+1} = \left\{ \begin{array}{ll}     U_n/2 {~si~} U_n~est~pair \\     3*U_n +1{~sinon.} \end{array}\right.`$$
 
-Sachant que $$`U_0`$$ est supérieur à 1
+Sachant que $`U_0`$ est supérieur à 1
 
 1. Ecrire la fonction *syracuse(u)* affichant les valeurs de la suite de syracuse. 
    La suite s'arrête lorsque *u* est inférieur ou égal à 1 
