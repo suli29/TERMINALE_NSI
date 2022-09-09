@@ -12,7 +12,7 @@
 
 1. Ecrire le code de la fonction *factorielle*(n) étant défini comme : 
 
-   $`factorielle(n) = \left\{ \begin{array}{ll}     1 {~si~} n = 0\\     n * factorielle(n -1){~sinon.} \end{array}\right.`$
+   $$`factorielle(n) = \left\{ \begin{array}{ll}     1 {~si~} n = 0\\     n * factorielle(n -1){~sinon.} \end{array}\right.`$$
 
 2) Quels seront les appels effectués pour obtenir factorielle(4) ?
 
@@ -64,3 +64,4 @@ Sachant que $`U_0`$ est supérieur à 1
 1. Ecrire la fonction *syracuse(u)* affichant les valeurs de la suite de syracuse. 
    La suite s'arrête lorsque *u* est inférieur ou égal à 1 
 
+x # En python​def fibonacci(n):    if n == 0 :         return 0    elif n == 1 :        return 1    else :         return fibonnaci(n-1) + fibonnaci(n-2)python
