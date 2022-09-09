@@ -43,11 +43,11 @@ Voici la fonction somme(n) se définissant comme :
 $`somme(n) = \left\{ \begin{array}{ll}     0 {~si~} n = 0\\     n + somme(n -1){~sinon.} \end{array}\right.`$
 
 ```python
-def somme(n,a) :
-    if a == 0 :
-        return n
+def somme(n) :
+    if n == 0 :
+        return 0
     else :
-        return 1 + somme(n,a-1)
+        return n + somme(n-1)
 ```
 
 Cette fonction s'appelle donc elle même jusqu'à avoir n égal à 0. 
