@@ -8,7 +8,7 @@
 
 La courbe de koch est une figure récursive pouvant ressembler à cela : 
 
-![](../Images/Courbe koch.png)
+![](../Images/Courbe_koch.png)
 
 Celle-ci possède un cas de base d'ordre 0, il est représenté par un segment. Le cas d'ordre 1 est ce même segment découpé en 3, la partie du milieu est quand à elle un triangle équilatéral sans sa base (ou un chapeau ^). 
 
