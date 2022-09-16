@@ -40,7 +40,7 @@ Par exemple :
 
 Voici la fonction somme(n) se définissant comme :
 
-$`somme(n) = \left\{ \begin{array}{ll}     0 {~si~} n = 0\\     n + somme(n -1){~sinon.} \end{array}\right.`$
+$$`somme(n) = \left\{ \begin{array}{ll}     0 {~si~} n = 0\\     n + somme(n -1){~sinon.} \end{array}\right.`$$
 
 ```python
 def somme(n) :
@@ -109,7 +109,7 @@ En effet à la différence de la récursivité dites *simple* il y aura ici plus
 
 <u>Suite de Fibonacci :</u>
 
-$`fibonacci(n) = \left\{ \begin{array}{ll}     0 {~si~} n = 0\\ 1 ~si~ n = 1 \\    fibonnaci(n-1) + fibonacci(n-2){~sinon.} \end{array}\right.`$
+$$`fibonacci(n) = \left\{ \begin{array}{ll}     0 {~si~} n = 0\\ 1 ~si~ n = 1 \\    fibonnaci(n-1) + fibonacci(n-2){~sinon.} \end{array}\right.`$$
 
 ```python
 # En python

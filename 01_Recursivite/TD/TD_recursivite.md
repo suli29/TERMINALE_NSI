@@ -63,5 +63,3 @@ Sachant que $`U_0`$ est supérieur à 1
 
 1. Ecrire la fonction *syracuse(u)* affichant les valeurs de la suite de syracuse. 
    La suite s'arrête lorsque *u* est inférieur ou égal à 1 
-
-x # En python​def fibonacci(n):    if n == 0 :         return 0    elif n == 1 :        return 1    else :         return fibonnaci(n-1) + fibonnaci(n-2)python
