@@ -34,3 +34,27 @@ def syracuse(u):
             return syracuse(u//2)
         else :
             return syracuse(u*3 + 1)
+
+def dentiste(texte) :
+    voyelles = ["a","e","i","o","u","y"]
+    if len(texte) == 1 :
+        if texte[0] in voyelles :
+            return texte[0]
+    else :
+        if texte[0] in voyelles :
+            return texte[0] + dentiste(texte[1:])
+        else :
+            return dentiste(texte[1:])
+
+def combine(t,t2):
+    if len(t) > 0 and len(t2)> 0 :
+        if t[0] < t2[0] :
+            return [t[0]] + combine(t[1:],t2)
+        else :
+            return [t2[0]] + combine(t,t2[1:])
+    elif len(t)>0:
+        return t
+    elif len(t2)>0 :
+        return t2
+    else :
+        return []
