@@ -20,7 +20,7 @@ Exemple d'utilisation de la classe Maillon pour faire une liste ```[1, 2, 3]```
 ```python
 >>> m3 = Liste(3)
 >>> m2 = Liste(2, m3)
->>> m1 = Liste(1, m1)
+>>> m1 = Liste(1, m2)
 ```
 
 ## 2. Première approche
