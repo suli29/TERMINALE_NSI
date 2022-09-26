@@ -4,37 +4,37 @@
 
 ## **1. Tableau et liste chainée**
 
-Il existe plusieurs type de liste : les tableaux dynamiques vu en première (*list*) et les listes chainées qui peuvent être simplement ou doublement chainée.
+Il existe plusieurs type de liste : les tableaux dynamiques vu en première (*list*) et les listes chainées qui peuvent être simplement ou doublement chainées.
 
-Les tableaux sont représentés par leurs indices alors que les listes chainées ont structure particulière.
+Les tableaux sont représentés par leurs indices alors que les listes chainées ont une structure particulière.
 
 Une liste est en réalité une succession d'éléments qui se suivent. Ces éléments s'appellent **MAILLONS**
 
 ![différence](../images/img1.PNG)
 
-## **2. Implémentation **: Liste simplement chainée
+## 2. Implémentation: Liste simplement chainée
 
 ### **2. 1. Structure**
 
-Pour la réalisation d'une liste, il nous faut comprendre comment fonctionne un maillon.
+Pour la réalisation d'une liste, il nous faut comprendre comment la structure fonctionne.
 
-Comme dit précédemment, une liste contient plusieurs maillons dont 2 spécifiques :
+Comme dit précédemment, une liste contient plusieurs éléments qui sont nommés :
 
-- Un appelé la **Tête** qui correspond au premier élément de la liste ;
-- Les autres appelés **Queue** qui correspondent aux autres éléments de la liste.
+- **Tête** qui correspond au premier élément de la liste ;
+- Les autres sont appelés **Queue** qui correspondent aux autres éléments de la liste.
 
-Nous allons nous intéresser aux listes simplement chainées, c'est à dire aux listes ayant des maillons constitués de 2 éléments :
+Nous allons nous intéresser aux listes simplement chainées, c'est à dire aux listes constitués de 2 éléments :
 
 - Un premier attribut qui correspond au **contenu** du maillon ;
 - Un deuxième attribut qui correspond au **pointeur** vers le maillon suivant.
 
 ![maillon](../images/img2.PNG)
 
-La liste chainée est entièrement définie par l'adresse de sa tête (son premier maillon).
+La liste chainée est entièrement définie par l'adresse de sa tête (son premier élément).
 
 ### **2. 2. Opérations**
 
-Lorsque l'on ajoute ou supprime un élément dans un tableau, nous avons des opérations qui s'exécute en plus puisque ce dernier doit ranger son contenu et donc doit manipuler ses indices.
+Lorsque l'on ajoute ou supprime un élément dans un tableau, nous avons des opérations qui s'exécutent en plus puisque ce dernier doit ranger son contenu et donc doit manipuler ses indices.
 
 Avec une liste chainée, ce problème n'existe pas puisque lors d'un ajout ou d'une suppression, on va manipuler directement sur les maillons en changeant les pointeurs :
 
@@ -52,9 +52,9 @@ Une liste chainée cyclique est une liste chainée dont la queue pointe vers la 
 
 Une liste chainée doublement est une liste qui utilise aussi des maillons mais ces derniers sont constitués de 3 attributs :
 
-- le pointeur vers le maillon précédant ;
-- le contenu ;
-- le pointeur vers le maillon suivant.
+- le pointeur vers l'élément précédent
+- le contenu 
+- le pointeur vers l'élément suivant
 
 L'avantage de ces listes est qu'il est possible de faire un retour en arrière sans avoir besoin de reparcourir l'ensemble de la liste.
 
