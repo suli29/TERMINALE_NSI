@@ -6,7 +6,7 @@ Le but de ce TP est de pouvoir définir la classe des maillons afin de définir 
 
 ## 1. La classe Maillon
 
-Pour rappel, un maillon est constitué de 2 attributs :
+Pour rappel, un maillon(ou liste) est constitué de 2 attributs :
 
 - Le contenu
 - Le pointeur vers le suivant
@@ -18,9 +18,9 @@ La queue d'une liste chainée utilisant cette classe pointera vers un objet ```N
 Exemple d'utilisation de la classe Maillon pour faire une liste ```[1, 2, 3]```
 
 ```python
->>> m3 = Maillon(3)
->>> m2 = Maillon(2, m3)
->>> m1 = Maillon(1, m1)
+>>> m3 = Liste(3)
+>>> m2 = Liste(2, m3)
+>>> m1 = Liste(1, m1)
 ```
 
 ## 2. Première approche
@@ -41,8 +41,7 @@ Il y a plusieurs approches pour structurer une liste chaînée. Elles sont plus 
 
 Une méthode très utilisée est d’encapsuler la liste chaînée dans un objet. L’utilisateur n’a alors aucune connaissance de la structure, notamment il ne sait même pas ce qu’est un maillon. Il ne fait qu’utiliser l’interface de la liste chaînée.
 
-5. Créer un module ```Liste.py``` dans lequel on import le module ```Maillon```.
-6. Construire une méthode **est_vide** qui retourne True si la liste est vide, False sinon.
+5. Construire une méthode **est_vide** qui retourne True si la liste est vide, False sinon.
 
 ```python
 def est_vide(self):
