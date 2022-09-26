@@ -35,11 +35,7 @@ Exemple d'utilisation de la classe Maillon pour faire une liste ```[1, 2, 3]```
 
 4. Que faudrait-il faire pour faciliter l’utilisation des listes chaînées pour l’utilisateur. Dans ce cas que devra uniquement connaître l’utilisateur ?
 
-## 3. Une meilleur approche
-
-Il y a plusieurs approches pour structurer une liste chaînée. Elles sont plus ou moins efficaces, plus ou moins bien pensées, selon les points de vues.
-
-Une méthode très utilisée est d’encapsuler la liste chaînée dans un objet. L’utilisateur n’a alors aucune connaissance de la structure, notamment il ne sait même pas ce qu’est un maillon. Il ne fait qu’utiliser l’interface de la liste chaînée.
+## 3. Méthodes associées
 
 5. Construire une méthode **est_vide( )** qui retourne True si la liste est vide, False sinon.
 
