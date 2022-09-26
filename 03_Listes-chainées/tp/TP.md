@@ -2,16 +2,16 @@
 
 ------
 
-Le but de ce TP est de pouvoir définir la classe des maillons afin de définir la classe des listes chainées qui seront non cyclique et simplement chainée.
+Le but de ce TP est de pouvoir définir la classe liste afin de définir la classe des listes chainées qui seront non cyclique et simplement chainée.
 
 ## 1. La classe Maillon
 
-Pour rappel, un maillon(ou liste) est constitué de 2 attributs :
+Pour rappel, une liste est constitué de 2 attributs :
 
 - Le contenu
 - Le pointeur vers le suivant
 
-S'ajoute à cela la méthode permettant d'ajouter un maillon.
+S'ajoute à cela la méthode permettant d'ajouter une autre liste.
 
 La queue d'une liste chainée utilisant cette classe pointera vers un objet ```None```
 
@@ -41,7 +41,7 @@ Il y a plusieurs approches pour structurer une liste chaînée. Elles sont plus 
 
 Une méthode très utilisée est d’encapsuler la liste chaînée dans un objet. L’utilisateur n’a alors aucune connaissance de la structure, notamment il ne sait même pas ce qu’est un maillon. Il ne fait qu’utiliser l’interface de la liste chaînée.
 
-5. Construire une méthode **est_vide** qui retourne True si la liste est vide, False sinon.
+5. Construire une méthode **est_vide( )** qui retourne True si la liste est vide, False sinon.
 
 ```python
 def est_vide(self):
@@ -61,16 +61,16 @@ def est_vide(self):
     """
 ```
 
-7. Construire une méthode **ajouter_element_queue** qui ajoute un maillon à la liste chaînée. Son paramètre valeur contiendra la valeur du maillon à ajouter. On distinguera les cas où la liste est vide ou non.
+7. Construire une méthode **ajouter_element_queue( )** qui ajoute un maillon à la liste chaînée. Son paramètre valeur contiendra la valeur du maillon à ajouter. On distinguera les cas où la liste est vide ou non.
 
 ```python
 >>> l = Liste()
 >>> l.ajoute_element_queue(1)
 ```
 
-8. Surcharger la méthode **__len__** qui permet de calculer la taille de la liste avec l'utilisation de la fonction *len* de python. (De manière récursive)
+8. Surcharger la méthode **__len__( )** qui permet de calculer la taille de la liste avec l'utilisation de la fonction *len* de python. (De manière récursive)
 
-9. Construire la méthode **extrait_element** qui retourne le maillon de position d’indice *i* spécifié par l’utilisateur. Le programme doit s’arrêter en fournissant un message à l’utilisateur s’il spécifie un indice non valable (préconditions, mot clé *assert* en Python).
+9. Construire la méthode **extrait_element( )** qui retourne le maillon de position d’indice *i* spécifié par l’utilisateur. Le programme doit s’arrêter en fournissant un message à l’utilisateur s’il spécifie un indice non valable (préconditions, mot clé *assert* en Python).
 
 10. Construire les méthodes usuelles sur les listes chaînées suivantes :
 
