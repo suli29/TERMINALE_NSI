@@ -6,13 +6,13 @@
 
 Il existe plusieurs type de liste : les tableaux dynamiques vu en première (*list*) et les listes chainées qui peuvent être simplement ou doublement chainées.
 
-Les tableaux sont représentés par leurs indices alors que les listes chainées ont une structure particulière.
+L'accès aux éléments d'un tableau se fait par l'indice et est (quasi) instantané (En O(1)), l'accès à un élément dans une liste chaînée dépend de son implémentation et est en O(n). Car une liste est en réalité une succession d'éléments qui se suivent. 
 
-Une liste est en réalité une succession d'éléments qui se suivent. Ces éléments s'appellent **MAILLONS**
+Ces éléments s'appellent **Listes (ou Maillons)**
 
 ![différence](../images/img1.PNG)
 
-## 2. Implémentation: Liste simplement chainée
+## 2. Implémentation : Liste simplement chainée
 
 ### **2. 1. Structure**
 
