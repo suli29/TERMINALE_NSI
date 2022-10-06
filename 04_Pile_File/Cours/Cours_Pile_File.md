@@ -26,7 +26,7 @@ Il faut bien faire la distinction entre les deux termes.
 
 ### 3. 1. Définition
 
-Une pile est une structure de données dans la quelle les derniers éléments entrant dans la structure seront les premiers à en sortir, nous appelons ce principe **LIFO (Last In First Out)**. Afin d'imager cette structure nous pouvons penser à un pile d'assiettes par exemple.
+Une pile est une structure de données dans la quelle les derniers éléments entrant dans la structure seront les premiers à en sortir, nous appelons ce principe **LIFO (Last In First Out)**. Afin d'imager cette structure nous pouvons penser à une pile d'assiettes par exemple.
 
 ![image-20220729234146926](../Images/Pile.png)
 
@@ -52,7 +52,7 @@ On peut ajouter d'autres méthodes :
 
 ### 3. 1. Définition
 
-Une file est une structure de données dans la quelle les derniers éléments entrant dans la structure seront les dernier à en sortir, nous appelons ce principe **FIFO (First In First Out)**. Afin d'imager cette structure nous pouvons penser à un file de voiture sur une route par exemple.
+Une file est une structure de données dans la quelle les derniers éléments entrant dans la structure seront les dernier à en sortir, nous appelons ce principe **FIFO (First In First Out)**. Afin d'imager cette structure nous pouvons penser à une file de voiture sur une route par exemple (ou une file d'attente).
 
 ![File](../Images/File.png)
 

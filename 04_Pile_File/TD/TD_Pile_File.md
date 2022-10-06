@@ -28,4 +28,4 @@ Le but du TD est de manipuler des piles et des files sans avoir d'implémentatio
    - Defile(), Defile(), Enfile(7), Enfile(8),Defile()
    - Que renvoie la méthode top() ?
 2. Reprenons la file de l'image, que faut t'il faire comme méthode pour que Est_vide() soit vrai ? 
-3. En partant de 0 écrire les méthodes permettant de créer une file contenant les numéros dans cette ordre 19982018. (1 est en haut de pile)
+3. En partant de 0 écrire les méthodes permettant de créer une file contenant les numéros dans cette ordre 19982018. (1 est en haut de File)
