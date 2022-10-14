@@ -27,7 +27,7 @@ Supposons que notre file à une taille fixe, disons 7 éléments maximum.
 
 ## 3.  Deuxième implémentation
 
-Ici nous allons implémenter la file de manière récursive. Elle possèdera deux attributs, le premier sera un élément de la pile nommé tête, le second sera une autre File. Cette seconde file possèdera elle aura un élément et une autre file en attribut. Ainsi de suite.
+Ici nous allons implémenter la file de manière récursive. Elle possèdera deux attributs, le premier sera un élément de la pile nommé tête, le second sera une autre File. Cette seconde file possèdera elle aussi un élément et une autre file en attribut. Ainsi de suite.
 
 1. Programmez cette classe nommée File2 avec les méthodes suivantes
    * **enfile( )**
